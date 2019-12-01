@@ -17,6 +17,7 @@ let package = Package(
     targets: [
         .target(name: "Ink"),
         .target(name: "InkCLI", dependencies: ["Ink"]),
-        .testTarget(name: "InkTests", dependencies: ["Ink"])
+        .testTarget(name: "InkTests", dependencies: ["Ink"]),
+        .testTarget(name: "InkCLITests", dependencies: [])
     ]
 )

@@ -9,4 +9,5 @@ import InkTests
 
 var tests = [XCTestCaseEntry]()
 tests += InkTests.allTests()
+tests += InkCLITests.allTests()
 XCTMain(tests)
