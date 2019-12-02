@@ -271,43 +271,7 @@ final class InputTests: XCTestCase {
         XCTAssertEqual(error, "")
 
         command = """
-        \(binaryPath) --help --version
-        """
-        (output, error) = bash(command)
-
-        XCTAssertEqual(output, expected)
-        XCTAssertEqual(error, "")
-
-        command = """
         \(binaryPath) -m file.md --help
-        """
-        (output, error) = bash(command)
-
-        XCTAssertEqual(output, expected)
-        XCTAssertEqual(error, "")
-    }
-
-    func testVersionFlag() {
-        let binaryPath = "\(InputTests.tempDirPath)/ink"
-        var command = """
-        \(binaryPath) --version
-        """
-        var (output, error) = bash(command)
-        let expected = versionMessage + "\n"
-
-        XCTAssertEqual(output, expected)
-        XCTAssertEqual(error, "")
-
-        command = """
-        \(binaryPath) file.md --version
-        """
-        (output, error) = bash(command)
-
-        XCTAssertEqual(output, expected)
-        XCTAssertEqual(error, "")
-
-        command = """
-        \(binaryPath) --version file1.md file2.md
         """
         (output, error) = bash(command)
 
@@ -336,7 +300,6 @@ extension InputTests {
             ("testCannotReadFile", testCannotReadFile),
             ("testTooManyArguments", testTooManyArguments),
             ("testHelpFlags", testHelpFlags),
-            ("testVersionFlag", testVersionFlag),
         ]
     }
 }
