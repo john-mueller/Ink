@@ -16,7 +16,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample610() {
@@ -32,7 +34,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample611() {
@@ -50,7 +54,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample612() {
@@ -68,7 +74,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample613() {
@@ -84,7 +92,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample614() {
@@ -100,7 +110,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample615() {
@@ -116,7 +128,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample616() {
@@ -132,7 +146,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample617() {
@@ -154,7 +170,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample618() {
@@ -170,7 +188,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample619() {
@@ -186,7 +206,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample620() {
@@ -202,7 +224,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample621() {
@@ -220,7 +244,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample622() {
@@ -236,7 +262,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample623() {
@@ -255,7 +283,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample624() {
@@ -271,7 +301,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample625() {
@@ -287,7 +319,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample626() {
@@ -303,7 +337,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample627() {
@@ -319,7 +355,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample628() {
@@ -335,7 +373,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample629() {
@@ -351,7 +391,9 @@ final class RawHTMLTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
 }

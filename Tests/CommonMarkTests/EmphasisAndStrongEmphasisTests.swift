@@ -16,7 +16,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample351() {
@@ -32,7 +34,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample352() {
@@ -48,7 +52,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample353() {
@@ -64,7 +70,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample354() {
@@ -80,7 +88,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample355() {
@@ -96,7 +106,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample356() {
@@ -112,7 +124,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample357() {
@@ -128,7 +142,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample358() {
@@ -144,7 +160,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample359() {
@@ -160,7 +178,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample360() {
@@ -176,7 +196,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample361() {
@@ -192,7 +214,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample362() {
@@ -208,7 +232,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample363() {
@@ -224,7 +250,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample364() {
@@ -240,7 +268,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample365() {
@@ -256,7 +286,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample366() {
@@ -274,7 +306,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample367() {
@@ -290,7 +324,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample368() {
@@ -306,7 +342,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample369() {
@@ -322,7 +360,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample370() {
@@ -338,7 +378,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample371() {
@@ -354,7 +396,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample372() {
@@ -370,7 +414,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample373() {
@@ -386,7 +432,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample374() {
@@ -402,7 +450,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample375() {
@@ -418,7 +468,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample376() {
@@ -434,7 +486,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample377() {
@@ -450,7 +504,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample378() {
@@ -466,7 +522,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample379() {
@@ -482,7 +540,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample380() {
@@ -498,7 +558,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample381() {
@@ -514,7 +576,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample382() {
@@ -530,7 +594,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample383() {
@@ -548,7 +614,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample384() {
@@ -564,7 +632,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample385() {
@@ -580,7 +650,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample386() {
@@ -596,7 +668,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample387() {
@@ -612,7 +686,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample388() {
@@ -628,7 +704,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample389() {
@@ -644,7 +722,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample390() {
@@ -660,7 +740,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample391() {
@@ -676,7 +758,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample392() {
@@ -692,7 +776,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample393() {
@@ -710,7 +796,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample394() {
@@ -726,7 +814,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample395() {
@@ -742,7 +832,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample396() {
@@ -758,7 +850,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample397() {
@@ -774,7 +868,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample398() {
@@ -790,7 +886,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample399() {
@@ -806,7 +904,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample400() {
@@ -822,7 +922,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample401() {
@@ -838,7 +940,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample402() {
@@ -854,7 +958,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample403() {
@@ -870,7 +976,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample404() {
@@ -888,7 +996,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample405() {
@@ -904,7 +1014,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample406() {
@@ -920,7 +1032,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample407() {
@@ -936,7 +1050,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample408() {
@@ -952,7 +1068,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample409() {
@@ -968,7 +1086,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample410() {
@@ -984,7 +1104,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample411() {
@@ -1000,7 +1122,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample412() {
@@ -1016,7 +1140,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample413() {
@@ -1032,7 +1158,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample414() {
@@ -1048,7 +1176,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample415() {
@@ -1064,7 +1194,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample416() {
@@ -1080,7 +1212,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample417() {
@@ -1096,7 +1230,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample418() {
@@ -1112,7 +1248,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample419() {
@@ -1128,7 +1266,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample420() {
@@ -1144,7 +1284,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample421() {
@@ -1160,7 +1302,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample422() {
@@ -1178,7 +1322,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample423() {
@@ -1194,7 +1340,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample424() {
@@ -1210,7 +1358,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample425() {
@@ -1226,7 +1376,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample426() {
@@ -1242,7 +1394,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample427() {
@@ -1258,7 +1412,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample428() {
@@ -1274,7 +1430,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample429() {
@@ -1290,7 +1448,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample430() {
@@ -1306,7 +1466,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample431() {
@@ -1324,7 +1486,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample432() {
@@ -1340,7 +1504,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample433() {
@@ -1356,7 +1522,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample434() {
@@ -1372,7 +1540,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample435() {
@@ -1388,7 +1558,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample436() {
@@ -1404,7 +1576,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample437() {
@@ -1420,7 +1594,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample438() {
@@ -1436,7 +1612,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample439() {
@@ -1452,7 +1630,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample440() {
@@ -1468,7 +1648,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample441() {
@@ -1484,7 +1666,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample442() {
@@ -1500,7 +1684,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample443() {
@@ -1516,7 +1702,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample444() {
@@ -1532,7 +1720,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample445() {
@@ -1548,7 +1738,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample446() {
@@ -1564,7 +1756,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample447() {
@@ -1580,7 +1774,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample448() {
@@ -1596,7 +1792,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample449() {
@@ -1612,7 +1810,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample450() {
@@ -1628,7 +1828,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample451() {
@@ -1644,7 +1846,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample452() {
@@ -1660,7 +1864,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample453() {
@@ -1676,7 +1882,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample454() {
@@ -1692,7 +1900,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample455() {
@@ -1708,7 +1918,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample456() {
@@ -1724,7 +1936,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample457() {
@@ -1740,7 +1954,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample458() {
@@ -1756,7 +1972,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample459() {
@@ -1772,7 +1990,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample460() {
@@ -1788,7 +2008,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample461() {
@@ -1804,7 +2026,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample462() {
@@ -1820,7 +2044,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample463() {
@@ -1836,7 +2062,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample464() {
@@ -1852,7 +2080,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample465() {
@@ -1868,7 +2098,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample466() {
@@ -1884,7 +2116,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample467() {
@@ -1900,7 +2134,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample468() {
@@ -1916,7 +2152,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample469() {
@@ -1932,7 +2170,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample470() {
@@ -1948,7 +2188,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample471() {
@@ -1964,7 +2206,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample472() {
@@ -1980,7 +2224,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample473() {
@@ -1996,7 +2242,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample474() {
@@ -2012,7 +2260,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample475() {
@@ -2028,7 +2278,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample476() {
@@ -2044,7 +2296,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample477() {
@@ -2060,7 +2314,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample478() {
@@ -2076,7 +2332,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample479() {
@@ -2092,7 +2350,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample480() {
@@ -2108,7 +2368,9 @@ final class EmphasisAndStrongEmphasisTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
 }

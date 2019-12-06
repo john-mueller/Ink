@@ -18,7 +18,9 @@ final class SoftLineBreaksTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
     func testExample646() {
@@ -36,7 +38,9 @@ final class SoftLineBreaksTests: XCTestCase {
 
         let inkHtml = parser.html(from: markdown)
 
-        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        if inkHtml != commonmarkHtml {
+            XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+        }
     }
 
 }

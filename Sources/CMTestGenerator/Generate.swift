@@ -88,7 +88,9 @@ internal func makeXCTests() {
 
                     let inkHtml = parser.html(from: markdown)
 
-                    XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+                    if inkHtml != commonmarkHtml {
+                        XCTAssertEqual(try clean(inkHtml), try clean(commonmarkHtml))
+                    }
                 }
 
 
