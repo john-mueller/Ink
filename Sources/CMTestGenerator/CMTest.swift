@@ -14,23 +14,72 @@ struct CMTest: Codable {
 
 extension CMTest {
     static let allTests: [CMTest] = {
-        guard let url = URL(string: "https://spec.commonmark.org/0.29/spec.json") else {
-            print("Bad URL")
+        var data: Data?
+
+        print("Trying to fetch local test data")
+
+        do {
+            data = try Data(contentsOf: specFileURL)
+        } catch {
+            print("Could not load spec.json from local cache: \(specFileURL)")
+            print("Error: \(error)")
+        }
+
+        if let loadedData = data {
+            do {
+                let decoder = JSONDecoder()
+                decoder.keyDecodingStrategy = .convertFromSnakeCase
+
+                do {
+                    defer { print("Test generation successful") }
+                    return try decodeTests(from: loadedData)
+                } catch {
+                    print("Could not decode local test data")
+                    print("Error: \(error)")
+                }
+            }
+        }
+
+        print("Trying to fetch remote test data")
+
+        do {
+            data = try Data(contentsOf: remoteURL)
+        } catch {
+            print("Could not load spec.json from remote URL: \(remoteURL)")
+            print("Error: \(error)")
+        }
+
+        guard let loadedData = data else {
+            print("Could not load spec.json locally or remotely")
+            print("Test generation unsuccessful")
             exit(1)
+        }
+
+        if !FileManager.default.fileExists(atPath: specFileURL.absoluteString) {
+            do {
+                try loadedData.write(to: specFileURL)
+            } catch {
+                print("Could not save local cache at \(specFileURL)")
+                print("Error: \(error)")
+            }
         }
 
         do {
-            let data = try Data(contentsOf: url)
-
-            try data.write(to: specFileURL)
-
-            let decoder = JSONDecoder()
-            decoder.keyDecodingStrategy = .convertFromSnakeCase
-
-            return try decoder.decode([CMTest].self, from: data)
+            defer { print("Test generation successful") }
+            return try decodeTests(from: loadedData)
         } catch {
-            print(error)
-            exit(1)
+            print("Could not decode remote test data")
+            print("Error: \(error)")
         }
+
+        print("Could not decode spec.json locally or remotely")
+        print("Test generation unsuccessful")
+        exit(1)
     }()
+
+    private static func decodeTests(from data: Data) throws -> [CMTest] {
+        let decoder = JSONDecoder()
+        decoder.keyDecodingStrategy = .convertFromSnakeCase
+        return try decoder.decode([CMTest].self, from: data)
+    }
 }

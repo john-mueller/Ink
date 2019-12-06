@@ -1,5 +1,9 @@
 import Foundation
 
+internal var remoteURL: URL {
+    URL(string: "https://spec.commonmark.org/0.29/spec.json")!
+}
+
 internal var packageFolderURL: URL {
     URL(fileURLWithPath: #file)
         .deletingLastPathComponent()
