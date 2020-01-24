@@ -24,6 +24,11 @@ final class LinkTests: XCTestCase {
         XCTAssertEqual(html, #"<p><a href="">link</a></p>"#)
     }
 
+    func testLinksCreateParagraphs() {
+        let html = MarkdownParser().html(from: "[Title](url)\n\n[Title](url)")
+        XCTAssertEqual(html, #"<p><a href="url">Title</a></p><p><a href="url">Title</a></p>"#)
+    }
+
     func testLinkWithReference() {
         let html = MarkdownParser().html(from: """
         [Title][url]
@@ -157,6 +162,7 @@ extension LinkTests {
             ("testLinkWithURL", testLinkWithURL),
             ("testLinkWithURLAndTitle", testLinkWithURLAndTitle),
             ("testLinkWithoutURLAndTitle", testLinkWithoutURLAndTitle),
+            ("testLinksCreateParagraphs", testLinksCreateParagraphs),
             ("testLinkWithReference", testLinkWithReference),
             ("testLinkWithReferenceAndDoubleQuoteTitle", testLinkWithReferenceAndDoubleQuoteTitle),
             ("testLinkWithReferenceAndSingleQuoteTitle", testLinkWithReferenceAndSingleQuoteTitle),
